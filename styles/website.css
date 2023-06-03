@@ -33,7 +33,7 @@ body {
 
 .discord-button {
     width: 150px;
-    height: 50px;
+    height: auto;
     border: none;
     margin: 10px;
     border-radius: 15px;
