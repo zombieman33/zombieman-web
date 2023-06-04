@@ -7,12 +7,9 @@ function placeMarker(index) {
 		document.getElementById(index).innerHTML = currentPlayer;
 
 		if (checkWin(currentPlayer)) {
-			document.getElementById("message").innerHTML = "Player " + currentPlayer + " wins!";
 			disableButtons();
 			resetGame();
-			document.getElementById("message").innerHTML = "Player " + currentPlayer + " wins!";
 		} else if (checkDraw()) {
-			document.getElementById("message").innerHTML = "It's a draw!";
 			disableButtons();
 			resetGame();
 			document.getElementById("message").innerHTML = "It's a draw!";

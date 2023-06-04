@@ -119,6 +119,10 @@ function calculate() {
     display.innerHTML = eval(display.innerHTML);
   } catch (error) {
     display.innerHTML = 'Error';
+    setTimeout(() => {
+      clearDisplay();
+    }, 1 * 1000);
+    
   }
 }
 
@@ -175,6 +179,9 @@ document.addEventListener('keydown', function(event) {
       calculate();
       break;
     case 'Delete':
+      clearDisplay();
+      break;
+    case 'Escape':
       clearDisplay();
       break;
     case 'Backspace':
