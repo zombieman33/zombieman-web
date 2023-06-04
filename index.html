@@ -2,23 +2,44 @@
 <html>
     <head>
         <title>zombieman.dev</title>
-        <link rel="stylesheet"
-        href="styles/website.css">
-        
+        <link rel="stylesheet" href="styles/website.css">
     </head>
     <body>
-        <button class="calculator-button">
-            Calculator
-        </button>
-        <button class="rock-paper-scissors-button">
-            Rock Paper Scissors
-        </button>
-        <button class="todo-list-button">
-            Todo List
-        </button>
-        <a href="https://discord.gg/J3DeUZnQnj" target="_blank">
-            <img src="images/discord-logo.png" alt="Discord Logo" class="discord-button">
-        </a>
+        <img class="main-screen" src="images/main.png">
+
+        <div class="top-left">
+            <p class="title">Games</p>
+
+            <button class="game-button" onclick="
+            window.open('rock-paper-scissors.html');
+            ">Rock Paper Scissors</button>
+
+            <button class="game-button" onclick="
+            window.open('tick-tack-toe.html');
+
+            ">Tick Tack Toe</button>
+        </div>
+
+        <div class="top-right">
+            <p class="title">Help</p>
+            <button class="calculator-button" onclick="
+            window.open('calculator.html');
+            ">Calculator</button>
+        </div>
+
+        <div class="bottom-left">
+            <a href="https://discord.gg/J3DeUZnQnj" target="_blank">
+                <img src="images/discord-logo.png" alt="Discord Logo" class="discord-button">
+            </a>
+        </div>
+
+        <div class="bottom-right">
+            <p class="title">Funny Trolls</p>
+            <button class="fake-blue-screen-button" onclick="
+            window.open('fake-blue-screen.html');
+            ">Fake Blue Screen</button>
+        </div>
+
         <script src="scripts/website.js"></script>
     </body>
 </html>
