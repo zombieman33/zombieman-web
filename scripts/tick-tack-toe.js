@@ -9,6 +9,7 @@ function placeMarker(index) {
 		if (checkWin(currentPlayer)) {
 			disableButtons();
 			resetGame();
+			document.getElementById("message").innerHTML = "It's a win!";
 		} else if (checkDraw()) {
 			disableButtons();
 			resetGame();
