@@ -7,6 +7,21 @@
     <body>
         <img class="main-screen" src="images/main.png">
 
+        <div class="search-container">
+            <div class="dropdown">
+              <button onclick="toggleDropdown()" class="dropbtn" id="searchEngineBtn">Search Engine</button>
+              <div id="dropdownContent" class="dropdown-content">
+                <a href="#" onclick="setSearchEngine('https://www.google.com/search?q=', 'Google')">Google</a>
+                <a href="#" onclick="setSearchEngine('https://www.bing.com/search?q=', 'Bing')">Bing</a>
+                <a href="#" onclick="setSearchEngine('https://www.firefox.com/search?q=', 'Firefox')">Firefox</a>
+              </div>
+        </div>
+
+        <input id="searchInput" placeholder="🔍 Search..." class="search-bar"> 
+        <button class="search-button" onclick="
+        search();
+        ">Search 🔍</button>
+
         <div class="top-left">
             <p class="title">Games</p>
 
