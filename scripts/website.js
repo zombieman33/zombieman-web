@@ -33,3 +33,7 @@ function search() {
     }
   }
 }
+function toggleGamesDropdown(dropdownId) {
+  var dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('show');
+}
