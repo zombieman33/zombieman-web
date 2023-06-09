@@ -145,3 +145,34 @@ body {
   border-radius: 15px;
   cursor: pointer;
 }
+
+.plugin-title {
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: -830px;
+}
+
+.menu-bar {
+  background-color: white;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu-item {
+  margin-right: 10px;
+}
+
+.menu-title {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
