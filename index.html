@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>zombieman.dev</title>
+        <title>💻 zombieman.dev</title>
         <link rel="stylesheet" href="styles/website.css">
     </head>
     <body>
         <img class="main-screen" src="images/main.png">
-
+        
         <div class="search-container">
             <div class="dropdown">
               <button onclick="toggleDropdown()" class="dropbtn" id="searchEngineBtn">Search Engine</button>
               <div id="dropdownContent" class="dropdown-content">
                 <a href="#" onclick="setSearchEngine('https://www.google.com/search?q=', 'Google')">Google</a>
                 <a href="#" onclick="setSearchEngine('https://www.bing.com/search?q=', 'Bing')">Bing</a>
+                <a href="#" onclick="setSearchEngine('https://www.firefox.com/search?q=', 'Firefox')">Firefox</a>
                 <a href="#" onclick="setSearchEngine('https://www.firefox.com/search?q=', 'Firefox')">Firefox</a>
               </div>
         </div>
@@ -38,7 +39,7 @@
         <div class="top-right">
             <p class="title">Help</p>
             <button class="calculator-button" onclick="
-            window.open('calculator.html');
+            window.open('calculator.html', '_self');
             ">Calculator</button>
         </div>
 
