@@ -8,11 +8,6 @@ document.querySelector('.slash-button')
     appendToDisplay('/');
   });
 
-document.querySelector('.slash-button')
-  .addEventListener('click', () => {
-    appendToDisplay('/');
-  });
-
 document.querySelector('.x-button')
   .addEventListener('click', () => {
     appendToDisplay('*');
@@ -71,11 +66,6 @@ document.querySelector('.seventh-button')
 document.querySelector('.eigth-button')
   .addEventListener('click', () => {
     appendToDisplay('8');
-  });
-  
-document.querySelector('.ninth-button')
-  .addEventListener('click', () => {
-    appendToDisplay('9');
   });
   
 document.querySelector('.ninth-button')
