@@ -1,22 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0f0bff;
+    align-items: center;
+    background: linear-gradient(320deg, #7fffd4, #0c1ec4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: 100vh;
+    justify-content: center;
 }
 
 .calculator {
-    width: 300px;
+    width: 500px;
     margin: 50px auto;
-    background-color: #04c3f3;
+    background-color: transparent;
+    border: 2px solid aqua;
     border-radius: 15px;
     padding: 20px;
     margin-top: 200px;
 }
 
+.display,
+.button {
+    background: linear-gradient(320deg, #0044ff, #00a4f0);
+}
+
 .display {
-    width: 100%;
-    min-height: 50px; /* Set a minimum height */
-    max-height: 150px; /* Set a maximum height */
-    overflow: auto; /* Add overflow property */
+    width: 99%;
+    min-height: 50px;
+    max-height: 150px;
+    overflow: auto;
     background-color: #fff;
     text-align: right;
     padding: 4px;
