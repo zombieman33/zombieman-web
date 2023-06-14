@@ -3,10 +3,75 @@
     <head>
         <title>💻 zombieman.dev</title>
         <link rel="stylesheet" href="styles/website.css">
+        <link rel="stylesheet" href="styles/menu.css">
     </head>
     <body>
-        <img class="main-screen" src="images/main.png">
+        <div class="menu-bar">
+            <p class="menu-item menu-logo logo" onclick="
+                window.open('index.html', '_self');
+                "><img src="images/logo.png"></p>
 
+            <div class="menu-item">
+              <p class="menu-title">Games</p>
+              <div class="games-dropdown">
+                <p class="menu-items" onclick="
+                window.open('flappy-bird.html', '_self');
+                ">Flappy Bird</p>
+                <p class="menu-items" onclick="
+                window.open('tick-tack-toe.html', '_self');
+                ">Tick Tack Toe</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <p class="menu-title">Help</p>
+              <div class="help-dropdown">
+                <p class="menu-items" onclick="
+                window.open('calculator.html', '_self');
+                ">Calculator</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <p class="menu-title">Plugins</p>
+              <div class="plugins-dropdown">
+
+                <!--SmeltifyX-->
+                <p class="menu-items" onclick="
+                window.open('https://www.spigotmc.org/resources/smeltifyx.109772/', '_self');
+                ">SmeltifyX</p>
+
+                <!--Welcome Wise-->
+                <p class="menu-items" onclick="
+                window.open('https://www.spigotmc.org/resources/welcome-rewards.109876/', '_self');
+                ">Welcome Wise</p>
+
+                <!--Command Spy Plus-->
+                <p class="menu-items" onclick="
+                window.open('https://www.spigotmc.org/resources/command-spy-plus.109909/', '_self');
+                ">Command Spy Plus</p>
+
+                <!--ChatUtils-->
+                <p class="menu-items" onclick="
+                window.open('https://www.spigotmc.org/resources/chatutils.110022/', '_self');
+                ">ChatUtils</p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <p class="menu-title">Funny Trolls</p>
+              <div class="funny-dropdown">
+                <p class="menu-items" onclick="
+                window.open('fake-blue-screen.html', '_self');
+                ">Fake Blue Screen</p>
+              </div>
+            </div>
+          </div>
+                  
+
+
+        <img class="main-screen" src="images/main.png">
+        
         <div class="search-container">
             <div class="dropdown">
               <button onclick="toggleDropdown()" class="dropbtn" id="searchEngineBtn">Search Engine</button>
@@ -14,17 +79,19 @@
                 <a href="#" onclick="setSearchEngine('https://www.google.com/search?q=', 'Google')">Google</a>
                 <a href="#" onclick="setSearchEngine('https://www.bing.com/search?q=', 'Bing')">Bing</a>
                 <a href="#" onclick="setSearchEngine('https://www.firefox.com/search?q=', 'Firefox')">Firefox</a>
-                <a href="#" onclick="setSearchEngine('https://www.firefox.com/search?q=', 'Firefox')">Firefox</a>
               </div>
         </div>
+
+        <button class="about-me-button" onclick="
+        window.open('about-me.html', '_self');
+        ">About me</button>
 
         <input id="searchInput" placeholder="🔍 Search..." class="search-bar"> 
         <button class="search-button" onclick="
         search();
         ">Search 🔍</button>
 
-
-        <div class="top-left">
+        <!-- <div class="top-left">
             <p class="title">Games</p>
 
             <button class="game-button" onclick="
@@ -42,7 +109,7 @@
             <button class="calculator-button" onclick="
             window.open('calculator.html', '_self');
             ">Calculator</button>
-        </div>
+        </div> -->
 
         <div class="bottom-left">
             <a href="https://discord.gg/J3DeUZnQnj" target="_blank">
@@ -50,12 +117,12 @@
             </a>
         </div>
 
-        <div class="bottom-right">
+        <!-- <div class="bottom-right">
             <p class="title">Funny Trolls</p>
             <button class="fake-blue-screen-button" onclick="
             window.open('fake-blue-screen.html', '_self');
             ">Fake Blue Screen</button>
-        </div>
+        </div> -->
 
         <script src="scripts/website.js"></script>
     </body>
