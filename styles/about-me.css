@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(320deg, #7fffd4, #0c1ec4);
+    background-size: cover;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.discord-info:hover,
+.github-info:hover,
+.email-info:hover,
+.website-info:hover {
+    cursor: pointer;
+    color: #7fffd4;
+}
