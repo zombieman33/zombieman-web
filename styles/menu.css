@@ -1,105 +1,110 @@
 
-.logo:hover {
-    cursor: pointer;
-  }
-  
-  .menu-bar {
-    background-color: white;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.1px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .menu-item {
-    margin-right: 50px;
-    position: relative;
-  }
-  
-  .menu-title {
-    color: black;
-    font-weight: bold;
-  }
-  
-  .menu-title:hover {
-    color: #21c4ff;
-    cursor: pointer;
-  }
-  
-  .menu-items:hover {
-    color: #21c4ff;
-  }
-  
-  .games-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    padding: 10px;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-  
-  .menu-item:hover .games-dropdown {
-    display: block;
-  }
-  
-  .help-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    padding: 10px;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-  
-  .menu-item:hover .help-dropdown {
-    display: block;
-  }
-  
-  .plugins-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    padding: 10px;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-  
-  .menu-item:hover .plugins-dropdown {
-    display: block;
-  }
-  
-  .funny-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    padding: 10px;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-  
-  .menu-item:hover .funny-dropdown {
-    display: block;
-  }
+.logo:hover,
+.discord-menu-button:hover {
+  cursor: pointer;
+}
+ 
+.discord-menu-button {
+  height: 40px;
+  border-radius: 10px;
+}
+.menu-bar {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu-item {
+  margin-right: 50px;
+  position: relative;
+}
+
+.menu-title {
+  color: black;
+  font-weight: bold;
+}
+
+.menu-title:hover {
+  color: #21c4ff;
+  cursor: pointer;
+}
+
+.menu-items:hover {
+  color: #21c4ff;
+}
+
+.games-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menu-item:hover .games-dropdown {
+  display: block;
+}
+
+.help-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menu-item:hover .help-dropdown {
+  display: block;
+}
+
+.plugins-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menu-item:hover .plugins-dropdown {
+  display: block;
+}
+
+.funny-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menu-item:hover .funny-dropdown {
+  display: block;
+}
