@@ -61,6 +61,11 @@
                 window.open('https://www.spigotmc.org/resources/sudoforce.110504/', '_self');
                 ">SudoForce</p>
 
+                <!--BedrockOffhand-->
+                <p class="menu-items" onclick="
+                window.open('https://www.spigotmc.org/resources/bedrockoffhand.110512/', '_self');
+                ">BedrockOffhand</p>
+
                 <!--All-->
                 <p class="menu-items" onclick="
                 window.open('https://www.spigotmc.org/resources/authors/zombieman33.1596694/', '_self');
@@ -117,19 +122,6 @@
             <h2>Contact Me</h2>
             <p>If you have any questions, suggestions, or would like to collaborate on a project, feel free to reach out to me:</p>
             <ul>
-                <script>
-                function copy(text) {
-                    textToCopy = text;
-
-                    navigator.clipboard.writeText(textToCopy)
-                        .then(function() {
-                            console.log('Async: Copying to clipboard was successful! ' + textToCopy);
-                        })
-                        .catch(function(err) {
-                            console.error('Async: Could not copy text: ', err);
-                        });
-                    }
-                </script>
                 <li class="email-info" onclick="
                 copy('zombieman.dev@gmail.com');
                 ">Email: zombieman.dev@gmail.com</li>
@@ -146,6 +138,6 @@
                 ">GitHub: https://github.com/zombieman33</li>
             </ul>
         </div>
-        <script src="scripts/about-me.js"></script>
+        <script defer src="scripts/about-me.js"></script>
     </body>
 </html>
