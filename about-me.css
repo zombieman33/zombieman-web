@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(320deg, #7fffd4, #0c1ec4);
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+
+    /* Remove scrollbar */
+    scrollbar-width: none;  
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+}
+.info {
+    margin-top: 40px;
+}
+
+.plugin-list {
+    display: none;
+}
+.plugin-toggle:hover {
+    color: #7fffd4;
+    cursor: pointer;
+}
+.popular-plugin-list {
+    display: none;
+}
+.popular-plugin-toggle:hover {
+    color: #7fffd4;
+    cursor: pointer;
+}
+.personal-favorite-plugin-list {
+    display: none;
+}
+.personal-favorite-plugin-toggle:hover {
+    color: #7fffd4;
+    cursor: pointer;
+}
+
+.download-link:hover {
+    color: #7fffd4;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.discord-info:hover,
+.github-info:hover,
+.email-info:hover,
+.spigot-info:hover,
+.website-info:hover {
+    cursor: pointer;
+    color: #7fffd4;
+}
