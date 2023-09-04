@@ -10,7 +10,7 @@ body {
     margin: 0;
 
     /* Remove scrollbar */
-    scrollbar-width: none;  
+    scrollbar-width: none;
     -ms-overflow-style: none;
 }
 body::-webkit-scrollbar {
