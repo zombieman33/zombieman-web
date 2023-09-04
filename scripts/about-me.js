@@ -107,18 +107,6 @@ function copy(text) {
       scrollToTop();
     }, 700);
   });
-  
-function formatDate(date) {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return date.toLocaleDateString(undefined, options);
-  }
-  
-  const currentDate = new Date();
-  
-  const lastUpdatedElement = document.getElementById('last-updated');
-  
-  lastUpdatedElement.innerText += formatDate(currentDate);
-
 
 function openNewTab(url) {
     window.open(url, '_blank');
