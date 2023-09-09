@@ -37,3 +37,14 @@ function toggleGamesDropdown(dropdownId) {
   var dropdown = document.getElementById(dropdownId);
   dropdown.classList.toggle('show');
 }
+
+
+    var copyrightText = document.querySelector('.copyright').textContent;
+
+    var newParagraph = document.createElement('p');
+
+    newParagraph.className = 'new-copyright';
+
+    newParagraph.textContent = copyrightText;
+
+    document.body.appendChild(newParagraph);

@@ -86,7 +86,7 @@ function copy(text) {
     function scrollToTop() {
       const currentPosition = window.scrollY;
       if (currentPosition > 0) {
-        window.scrollTo(0, currentPosition - 4);
+        window.scrollTo(0, currentPosition - 5);
         requestAnimationFrame(scrollToTop);
       }
     }
@@ -96,7 +96,7 @@ function copy(text) {
       const windowHeight = window.innerHeight;
       const documentHeight = document.body.scrollHeight;
       if (currentPosition + windowHeight < documentHeight) {
-        window.scrollTo(0, currentPosition + 4);
+        window.scrollTo(0, currentPosition + 9);
         requestAnimationFrame(scrollToBottom);
       }
     }
@@ -149,7 +149,7 @@ const pElement = document.getElementById('plugin-toggle');
 const pluginList = document.querySelector('.plugin-list');
 
 pElement.addEventListener('click', () => {
-    if (pluginList.style.display === 'none') {
+    if (pluginList.style.display == 'none') {
         pluginList.style.display = 'block';
     } else {
         pluginList.style.display = 'none';
