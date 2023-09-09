@@ -182,3 +182,7 @@ body::-webkit-scrollbar {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: -830px;
 }
+
+.copyright {
+  display: none;
+}

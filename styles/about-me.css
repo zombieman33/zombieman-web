@@ -33,23 +33,35 @@ h1 {
 .plugin-list {
     display: none;
 }
-.plugin-toggle:hover {
-    color: #7fffd4;
-    cursor: pointer;
-}
+
 .popular-plugin-list {
     display: none;
 }
-.popular-plugin-toggle:hover {
+.popular-plugin-toggle:hover,
+.personal-favorite-plugin-toggle:hover,
+.plugin-toggle:hover {
     color: #7fffd4;
     cursor: pointer;
+    border-color: #7fffd4;
 }
+
+.plugin-toggle,
+.popular-plugin-toggle,
+.personal-favorite-plugin-toggle {
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.button {
+    margin-bottom: 10px;
+}
+
 .personal-favorite-plugin-list {
     display: none;
-}
-.personal-favorite-plugin-toggle:hover {
-    color: #7fffd4;
-    cursor: pointer;
 }
 
 .download-link:hover {
@@ -65,4 +77,5 @@ h1 {
 .website-info:hover {
     cursor: pointer;
     color: #7fffd4;
+    text-decoration: underline;
 }
