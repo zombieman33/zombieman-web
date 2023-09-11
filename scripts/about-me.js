@@ -82,11 +82,11 @@ function copy(text) {
   
   window.addEventListener('load', loadName);
   
-  window.addEventListener('DOMContentLoaded', function () {
+/*  window.addEventListener('DOMContentLoaded', function () {
     function scrollToTop() {
       const currentPosition = window.scrollY;
       if (currentPosition > 0) {
-        window.scrollTo(0, currentPosition - 5);
+        window.scrollTo(0, currentPosition - 10);
         requestAnimationFrame(scrollToTop);
       }
     }
@@ -96,7 +96,7 @@ function copy(text) {
       const windowHeight = window.innerHeight;
       const documentHeight = document.body.scrollHeight;
       if (currentPosition + windowHeight < documentHeight) {
-        window.scrollTo(0, currentPosition + 9);
+        window.scrollTo(0, currentPosition + 10);
         requestAnimationFrame(scrollToBottom);
       }
     }
@@ -107,6 +107,7 @@ function copy(text) {
       scrollToTop();
     }, 700);
   });
+  */
 
 function openNewTab(url) {
     window.open(url, '_blank');
