@@ -141,6 +141,9 @@ function openNewTab(url) {
         case 'link-sudoforce':
             openNewTab('https://www.spigotmc.org/resources/sudoforce-1-13-1-20x.110504/');
             break;
+        case 'link-playerkitsplus':
+            openNewTab('https://www.spigotmc.org/resources/playerkitsplus.112651/');
+            break;
         }
     });
 });
