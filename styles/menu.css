@@ -1,4 +1,3 @@
-
 .logo:hover,
 .discord-menu-button:hover {
   cursor: pointer;
@@ -32,6 +31,12 @@
   font-weight: bold;
 }
 
+/*
+
+Hover styles.
+
+*/
+
 .menu-title:hover {
   color: #21c4ff;
   cursor: pointer;
@@ -41,41 +46,19 @@
   color: #21c4ff;
 }
 
+
+
+/*
+
+DROPDOWNS core and hover styles.
+
+*/
+
+.plugins-dropdown,
+.funny-dropdown,
+.subscribe-dropdown,
+.help-dropdown,
 .games-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  border-radius: 10px;
-  color: black;
-  padding: 10px;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-.menu-item:hover .games-dropdown {
-  display: block;
-}
-
-.help-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  border-radius: 10px;
-  color: black;
-  padding: 10px;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-.menu-item:hover .help-dropdown {
-  display: block;
-}
-
-.plugins-dropdown {
   display: none;
   position: absolute;
   top: 100%;
@@ -92,19 +75,21 @@
   display: block;
 }
 
-.funny-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  border-radius: 10px;
-  color: black;
-  padding: 10px;
-  white-space: nowrap;
-  cursor: pointer;
+.menu-item:hover .funny-dropdown {
+  display: block;
+}
+.menu-item:hover .-dropdown {
+  display: block;
 }
 
-.menu-item:hover .funny-dropdown {
+.menu-item:hover .games-dropdown {
+  display: block;
+}
+
+.menu-item:hover .help-dropdown {
+  display: block;
+}
+
+.menu-item:hover .subscribe-dropdown {
   display: block;
 }
